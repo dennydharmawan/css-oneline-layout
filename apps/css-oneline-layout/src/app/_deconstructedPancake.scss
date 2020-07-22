@@ -1,0 +1,27 @@
+.example--2 {
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    resize: both;
+  }
+
+  .child {
+    //  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+    //  If we don't want the items to stretch:
+    flex: 0 1 300px;
+    //  If we do want the items to stretch:
+    // flex: 1 1 300px;
+
+    //   etc.
+    border: 1px dashed red;
+    background: lightpink;
+    font-size: 2rem;
+    text-align: center;
+  }
+}

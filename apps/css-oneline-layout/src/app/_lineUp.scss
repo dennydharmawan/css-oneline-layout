@@ -1,0 +1,32 @@
+.example--8 {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+
+    background-color: lightblue;
+    width: 800px;
+    height: 500px;
+    overflow: auto;
+    resize: both;
+  }
+
+  .visual {
+    height: 100px;
+    width: 100%;
+    background: wheat;
+    margin: 0.5rem 0;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: lightpink;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}

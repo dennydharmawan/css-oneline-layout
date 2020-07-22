@@ -1,0 +1,43 @@
+.example--7 {
+  .parent {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    background: gray;
+    width: 600px;
+    height: 600px;
+    resize: both;
+    overflow: auto;
+
+    padding: 1rem;
+
+    div {
+      border-radius: 5px;
+    }
+  }
+
+  div {
+    display: grid;
+  }
+
+  .div {
+    display: grid;
+
+    &--1 {
+      background-color: lightyellow;
+    }
+
+    &--2 {
+      background-color: lightcoral;
+    }
+
+    &--3 {
+      background-color: lightblue;
+    }
+
+    &--4 {
+      background-color: lightgreen;
+    }
+  }
+}

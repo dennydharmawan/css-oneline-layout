@@ -1,0 +1,23 @@
+.example--3 {
+  .parent {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+    background: lightblue;
+    width: 500px;
+    height: 500px;
+    resize: both;
+    overflow: auto;
+  }
+
+  .sidebar {
+    height: 100%;
+
+    background: lightpink;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .content {
+    padding: 2rem;
+  }
+}

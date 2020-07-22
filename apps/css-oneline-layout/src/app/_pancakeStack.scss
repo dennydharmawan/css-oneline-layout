@@ -1,0 +1,28 @@
+.example--4 {
+  .parent {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    background: lightblue;
+    width: 500px;
+    height: 500px;
+    resize: both;
+    overflow: auto;
+  }
+
+  header {
+    background: lightpink;
+    padding: 2rem;
+  }
+
+  main {
+    background: coral;
+    padding: 2rem;
+  }
+
+  footer {
+    background: wheat;
+    padding: 2rem;
+    text-align: center;
+  }
+}
