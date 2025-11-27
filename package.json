@@ -38,7 +38,7 @@
     "eslint": "6.8.0",
     "typescript": "~3.9.3",
     "prettier": "2.0.4",
-    "@nrwl/web": "10.0.2",
+    "@nrwl/web": "19.8.4",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/jest": "10.0.2",
     "jest": "25.2.3",
